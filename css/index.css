@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #151518;
+}
+
+nav#menu {
+    width: 270px;
+
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+
+#menu li {
+    display: inline-block;
+
+    padding: 10px;
+}
+
+#menu a {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 18px;
+
+    color: #FFFFFF;
+    
+    text-decoration: none;
+
+    transform: scale(0.9);
+}
+
+#menu a:hover {
+    color: #ff234b;
+
+    transform: scale(1);
+}
+
+#princ {
+    color: #FFFFFF;
+
+    text-align: justify;
+
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+
+    margin-left: 70px;
+}
+
+#princ span {
+    color: #ff234b
+}
