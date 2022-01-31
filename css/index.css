@@ -8,6 +8,7 @@
 
 body {
     background: #151518;
+    font-family: 'Roboto', sans-serif;
 }
 
 nav#menu {
@@ -15,7 +16,7 @@ nav#menu {
 
     margin: auto;
     margin-top: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 #menu li {
@@ -53,7 +54,7 @@ nav#menu {
 #princ h1 {
     color: #FFFFFF;
 
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 10px;
 
     font-family: 'Encode Sans', sans-serif;
@@ -88,4 +89,41 @@ nav#menu {
 
     border-radius: 29px;
     background-color: #ff234b;
+}
+
+hr {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+div#infos {
+    width: 80%;
+    margin: auto;
+}
+
+div#infos img {
+    width: 75px;
+}
+
+div.icons {
+    display: flex;
+
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+div.icons p {
+    color: white;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    margin-left: 20px;
+}
+
+div.icons span {
+    font-size: 18px;
+    font-weight: normal;
 }
