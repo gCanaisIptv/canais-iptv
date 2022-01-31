@@ -149,5 +149,31 @@ div.icons img:hover {
 }
 
 @media screen and (max-width: 980px) {
+    nav#menu {
+        margin-bottom: 0px;
+    }
 
+    #princ {
+        width: 90%;
+    }
+
+    #princ h1 {
+
+        font-size: 40px;
+
+        margin-top: 20px;
+    }
+
+    #princ a {
+        text-align: center;
+    }
+
+    div#infos {
+        width: 90%;
+    }
+
+    div#infos img {
+        width: 70px;
+        height: 70px;
+    }
 }
