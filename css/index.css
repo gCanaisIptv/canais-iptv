@@ -101,7 +101,7 @@ hr {
     width: 80%;
 
     margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 40px;
 }
 
@@ -109,6 +109,7 @@ div#infos {
     width: 80%;
 
     margin: auto;
+    margin-top: 50px;;
 }
 
 div#infos img {
@@ -145,4 +146,8 @@ div.icons img {
 div.icons img:hover {
     transition: 0.3s;
     transform: scale(1);
+}
+
+@media screen and (max-width: 980px) {
+
 }
