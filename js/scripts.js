@@ -32,3 +32,14 @@ window.onscroll = () => {
     menuIcon.classList.remove('bx-x');
     navbar.classList.remove('active');
 };
+
+function enviarMensagem() {
+  event.preventDefault(); // Evita o envio do formulário
+
+  var numero = "13156881304"; // Insira seu número de telefone ou nome de usuário do WhatsApp
+  var texto = document.getElementById("mensagem").value;
+  texto = encodeURIComponent(texto); // Codifica o texto para ser usado em uma URL
+
+  var url = "https://wa.me/" + numero + "?text=" + texto;
+  window.open(url);
+}
